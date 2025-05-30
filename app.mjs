@@ -4,13 +4,29 @@
 //     console.log('some text:', i+1);
 
 //};
-let i = 0;
-for (; ;) {
-    console.log('some text:', ++i);
 
-    if (i > 9) {
-        break;
-    }
+// let i = 0;
+// for (; ;) {
+//     console.log('some text:', ++i);
+
+//     if (i > 9) {
+//         break;
+//     }
+// }
+
+
+let rollNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9,];
+
+for (let i = 0; i < rollNumbers.length; i++) {
+
+   //console.log('roll number:', rollNumbers[i]);
+
+    // rollNumbers[i] = rollNumbers[i] * 2;
+
+    rollNumbers[i] = rollNumbers[i] * rollNumbers[i] * rollNumbers[i];
+    console.log('roll number after multiply by 2:', rollNumbers);
+
+
 
 
 }
